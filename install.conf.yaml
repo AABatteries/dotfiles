@@ -1,0 +1,17 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+- clean: ['~']
+
+- link:
+    ~/.config/vlc:
+    ~/.config/uzbl:
+    ~/.config/openbox:
+    ~/.vimrc:
+    ~/.Slic3r:
+    ~/.bashrc:
+    ~/.vim:   
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
