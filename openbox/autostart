@@ -1,4 +1,4 @@
-feh --bg-fill /home/philips/Pictures/Stars-at-night.png
+feh --bg-fill /home/philips/Pictures/Wallpapers/debian-infinite.png
 # Start tint2 panels
 tint2 &
 # Start copyq
